@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('homepage');
 });
+// Route::get('/authen.home', function () {
+//     return view('/authen.home');
+// })->name('authen.home');
+// });
